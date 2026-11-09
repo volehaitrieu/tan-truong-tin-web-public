@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# công cụ hỗ trợ / ảnh chụp tạo lại được
+/.playwright-cli/
+/.taste-skill/
+/docs/anh-giao-dien/
+/.agents/
+
+# dữ liệu trích từ Excel của chủ shop (có giá nhập) — không đưa lên GitHub
+/scripts/du-lieu-thu.json
+
+.vercel
+.env*
+
+# Không đưa lên GitHub: Excel có thể chứa giá nhập, gói ZIP không quét được bên trong, nhật ký chạy thử, bản dump dữ liệu.
+*.xlsx
+*.xls
+*.xlsm
+exports/
+*.log
+*.dump
+*.backup

@@ -1,0 +1,23 @@
+# Không tải lên Vercel khi deploy bằng `vercel` CLI (mã nguồn bản deploy xem được trong trang quản lý Vercel).
+# Biến môi trường thật nằm trong cài đặt dự án Vercel, không lấy từ tệp .env.
+.env*
+*.xlsx
+*.xls
+*.xlsm
+exports/
+*.zip
+*.log
+*.dump
+.hallmark/
+research_notes/
+reports/
+.superpowers/
+/docs/
+/scripts/
+/supabase/
+/.claude/
+/.codex/
+/.agents/
+/AGENTS.md
+/CLAUDE.md
+/app/(store)/kiem-tra-phi-ship/
